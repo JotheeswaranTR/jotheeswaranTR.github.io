@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Surveillance Operations & SLA Analytics</title>
+    <style>
+        /* CSS specifically designed for Print/PDF */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+        }
+        h1 {
+            font-size: 28px;
+            color: #111;
+            border-bottom: 2px solid #111;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #111;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        ul {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #f4f4f4;
+            border-left: 4px solid #111;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        img {
+            page-break-inside: avoid;
+        }
+        h2, h3 {
+            page-break-after: avoid;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Surveillance Operations & SLA Analytics</h1>
+    <div class="subtitle">Operational Reporting & Regional Performance</div>
+
+    <h2>1. The Problem</h2>
+    <p>Monitoring a large-scale surveillance network requires real-time visibility into camera uptime, hardware failures, and Service Level Agreement (SLA) compliance. The operations team lacked a centralized reporting system to quickly identify which regions were failing to meet compliance standards, leading to delayed maintenance and reporting bottlenecks.</p>
+
+    <h2>2. The Solution</h2>
+    <p>I developed automated data pipelines to extract raw operational logs and transformed them into interactive Power BI dashboards. This provided the operations team with a single source of truth, allowing them to monitor thousands of cameras in real-time and identify underperforming regions instantly.</p>
+
+    <div class="highlight-box">
+        <p>Impact: Analyzed operations for 7,000+ cameras. Regional trend analysis contributed to an SLA improvement from ~70% to ~85%.</p>
+    </div>
+
+    <h2>3. Methodology & Tech Stack</h2>
+    <ul>
+        <li><strong>Data Automation:</strong> Utilized SQL and Python scripts to automate the extraction, cleaning, and validation of daily operational logs.</li>
+        <li><strong>Data Modeling:</strong> Designed a robust schema in Power BI to handle large volumes of time-series data efficiently.</li>
+        <li><strong>Reporting:</strong> Built 5+ tailored dashboards for different stakeholders (from daily operations to executive summaries).</li>
+    </ul>
+
+    <h2>4. Key Insights & Results</h2>
+    <p>The dashboards highlighted specific geographic regions where camera downtime was consistently higher, often correlating with specific hardware vendors or environmental factors. By addressing these targeted issues, the operations team successfully improved overall SLA compliance by 15 percentage points.</p>
+
+    <!-- Replace the src with your actual image names in the assets folder -->
+    <div class="image-grid">
+        <img src="assets/project4-a.png" alt="Surveillance Dashboard 1">
+        <img src="assets/project4-b.png" alt="Surveillance Dashboard 2">
+    </div>
+
+    <h2>5. Business Value</h2>
+    <p>This project demonstrates the ability to work with large-scale operational data (7,000+ endpoints) and turn it into actionable business intelligence. It highlights skills in ETL automation, data modeling, and building dashboards that directly influence operational efficiency and SLA compliance.</p>
+
+</body>
+</html>

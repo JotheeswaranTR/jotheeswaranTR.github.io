@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotheeswaran TR | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">JTR / DATA ANALYST</a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero section-padding">
+        <div class="container fade-in">
+            <p class="subtitle">JOTHEESWARAN TR / CHENNAI, INDIA</p>
+            <h1 class="hero-title">Turning Complex Data into<br>Clear Business Decisions.</h1>
+            <h2 class="hero-skills">Data Analyst | Power BI | SQL | Python</h2>
+            <p class="hero-desc">
+                I'm Jotheeswaran, a BI-focused Data Analyst. I use SQL, Python, ETL, and star-schema data modeling to turn complex operational data into reliable Power BI dashboards and decision-ready business reporting.
+            </p>
+            <div class="hero-links">
+                <a href="#projects" class="btn-link">Explore projects</a>
+                <a href="assets/resume.pdf" class="btn-link">View resume</a>
+                <a href="https://www.linkedin.com/in/jotheeswaran-tr/" target="_blank" class="btn-link">LinkedIn</a>
+                <a href="#contact" class="btn-link">Contact me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container fade-in">
+            <h3 class="section-label">01 / PROJECTS</h3>
+            <h2 class="section-title">Analysis with a business purpose.</h2>
+            <p class="section-desc">Professional work and personal projects, from market intelligence to operational performance.</p>
+
+            <div class="grid-2">
+                
+                <!-- Project 1 (Commented out as requested) -->
+                <!-- 
+                <div class="card">
+                    <div class="card-image-placeholder">
+                        <span class="tag">PROJECT SCOPE / SCREENSHOT PENDING</span>
+                        <h4>40+ competitor benchmarks</h4>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-type">Professional / Steadily</p>
+                        <h3>AI SaaS Marketplace Intelligence & Competitor Benchmarking</h3>
+                        <p>A unified view of competitor pricing, features, and market positioning across 40 AI product categories.</p>
+                        <p class="tech-stack">Power BI · DAX · Excel · Data modeling</p>
+                        <a href="#" class="read-more">Read case study &rarr;</a>
+                    </div>
+                </div>
+                -->
+
+                <!-- Project 2 -->
+                <div class="card">
+                    <!-- Project 2 Carousel -->
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carousel-p2">
+                            <!-- Make sure these image names match your assets folder -->
+                            <img src="assets/project2-a.png" alt="Job Market Pipeline - View 1" class="carousel-img">
+                            <img src="assets/project2-b.png" alt="Job Market Pipeline - View 2" class="carousel-img">
+                            <img src="assets/project2-c.png" alt="Job Market Pipeline - View 3" class="carousel-img">
+                        </div>
+                        <!-- Navigation Buttons -->
+                        <button class="carousel-btn prev" onclick="moveSlide('carousel-p2', -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide('carousel-p2', 1)">&#10095;</button>
+                    </div>
+                    
+                    <div class="card-content">
+                        <p class="card-type">Personal / Portfolio</p>
+                        <h3>Automated Job Market Intelligence Pipeline</h3>
+                        <p>An end-to-end Python ETL workflow that turns live job postings into structured skill and location insights.</p>
+                        <p class="tech-stack">Python · Pandas · API · Matplotlib · Seaborn · Regex</p>
+                        <a href="assets/Casestudy1.pdf" class="read-more">Read case study &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card">
+                    <!-- Project 3 Carousel -->
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carousel-p3">
+                            <!-- Make sure these image names match your assets folder -->
+                            <img src="assets/project3-a.png" alt="Paper Leak Analysis - View 1" class="carousel-img">
+                            <img src="assets/project3-b.png" alt="Paper Leak Analysis - View 2" class="carousel-img">
+                            <img src="assets/project3-c.png" alt="Paper Leak Analysis - View 3" class="carousel-img">
+                        </div>
+                        <!-- Navigation Buttons -->
+                        <button class="carousel-btn prev" onclick="moveSlide('carousel-p3', -1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide('carousel-p3', 1)">&#10095;</button>
+                    </div>
+
+                    <div class="card-content">
+                        <p class="card-type">Personal / Portfolio</p>
+                        <h3>Paper Leak Incidents Analysis — India, 2004–2026</h3>
+                        <p>Data quality tracing and Power BI analysis of reported exam paper leak incidents across Indian states.</p>
+                        <p class="tech-stack">Power BI · Python · Data validation</p>
+                        <a href="assets/Casestudy2.html" class="read-more">Read case study &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="card">
+                    <div class="card-image-placeholder">
+                        <span class="tag">PROJECT SCOPE </span>
+                        <h4>7,000+ cameras monitored</h4>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-type">Professional / Exhilar</p>
+                        <h3>Surveillance Operations & SLA Analytics</h3>
+                        <p>Operational reporting for camera uptime, SLA compliance, and regional performance.</p>
+                        <p class="tech-stack">SQL · Excel · Power BI · Python</p>
+                        <a href="assets/Casestudy3.html" class="read-more">Read case study &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding alt-bg">
+        <div class="container fade-in">
+            <h3 class="section-label">02 / ABOUT</h3>
+            <h2 class="section-title">From operational detail to business intelligence.</h2>
+            <div class="text-content">
+                <p>My journey began in surveillance data reporting, where I analyzed performance across 7,000+ cameras, monitored SLA compliance, and identified regional performance trends. Today, as a Data Analyst at Steadily, I focus on AI SaaS marketplace intelligence, competitor benchmarking, and business reporting.</p>
+                <p>I specialize in transforming raw data into meaningful insights using SQL, Python, Excel, and Power BI. My work includes building star-schema data models, developing DAX measures, automating data pipelines, and creating dashboards that support informed business decisions. I enjoy solving analytical problems, improving reporting processes, and turning complex datasets into clear, actionable insights for business stakeholders.</p>
+            </div>
+
+            <h3 class="section-label mt-5">03 / TECHNICAL TOOLKIT</h3>
+            <h2 class="section-title">A practical, end-to-end analytics stack.</h2>
+            
+            <div class="grid-2 mt-4">
+                <div class="card simple-card">
+                    <h4>SQL</h4>
+                    <p>MySQL, SQL Server, window functions, CTEs, subqueries, query optimization.</p>
+                </div>
+                <div class="card simple-card">
+                    <h4>Power BI</h4>
+                    <p>DAX, Power Query, star/snowflake schemas, Power BI Service, workspaces, row-level security.</p>
+                </div>
+                <div class="card simple-card">
+                    <h4>Python & Excel</h4>
+                    <p>Pandas, NumPy, automation scripts, PivotTables, XLOOKUP, macros and Power Pivot.</p>
+                </div>
+                <div class="card simple-card">
+                    <h4>Analytics & collaboration</h4>
+                    <p>ETL, data cleaning, statistical analysis, trend and cohort analysis, A/B testing, KPI design, requirements gathering, stakeholder reporting, GitHub, JIRA and Confluence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container fade-in">
+            <h3 class="section-label">04 / EXPERIENCE</h3>
+            <h2 class="section-title">Business context. Analytical depth.</h2>
+
+            <div class="timeline mt-4">
+                <div class="timeline-item card">
+                    <p class="date">MAR 2026 — PRESENT</p>
+                    <h3>Data Analyst / Steadily</h3>
+                    <p>Built a star-schema model with 21 DAX measures across 4 display folders for 40+ competitor benchmarks. Delivered a 4-page Power BI dashboard and 11-slide executive deck. Consolidated a Master Matrix used by product and pricing teams, benchmarking 10+ AI categories.</p>
+                </div>
+
+                <div class="timeline-item card">
+                    <p class="date">DEC 2022 — DEC 2025</p>
+                    <h3>Executive — Surveillance Data Reporting / Exhilar Innovative Solutions</h3>
+                    <p>Analyzed 7,000+ cameras using SQL and Excel. Deployed 5+ Power BI dashboards and automated extraction, cleaning and validation in SQL and Python. Regional trend analysis contributed to a reported SLA change from approximately 70% to 85% (15 percentage points; stated as 15% in the resume).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding alt-bg">
+        <div class="container fade-in">
+            <h3 class="section-label">05 / DASHBOARD GALLERY</h3>
+            <h2 class="section-title">Evidence, not example dashboards.</h2>
+            <p class="section-desc">Original dashboard screenshots have not yet been supplied. The gallery is connected to the same projects, ready for permission-approved screenshots.</p>
+
+            <div class="grid-2 mt-4">
+                <!-- Gallery Item 1 -->
+                <!-- <div class="card gallery-card">
+                    <div class="card-image-placeholder">
+                        <span class="tag">ORIGINAL SCREENSHOT / AWAITING UPLOAD</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>AI SaaS Marketplace Intelligence & Competitor Benchmarking</h3>
+                        <p>A unified view of competitor pricing, features, and market positioning across 40 AI product categories.</p>
+                        <p class="tech-stack">Power BI · DAX · Excel · Data modeling</p>
+                        <a href="#" class="read-more">View case study &rarr;</a>
+                    </div>
+                </div> -->
+
+                <!-- Gallery Item 2 -->
+                <div class="card gallery-card">
+                    <img src="assets/project2-a.png" alt="Job Market Pipeline" style="width: 100%; height: 250px; object-fit: cover; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <div class="card-content">
+                        <h3>Automated Job Market Intelligence Pipeline</h3>
+                        <p>An end-to-end Python ETL workflow that turns live job postings into structured skill and location insights.</p>
+                        <p class="tech-stack">Python · Pandas · API · Matplotlib · Seaborn · Regex</p>
+                        <a href="#" class="read-more">View case study &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="card gallery-card">
+                    <<img src="assets/project3-a.png" alt="Paper Leak Analysis" style="width: 100%; height: 250px; object-fit: cover; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <div class="card-content">
+                        <h3>Paper Leak Incidents Analysis — India, 2004–2026</h3>
+                        <p>Data quality tracing and Power BI analysis of reported exam paper leak incidents across Indian states.</p>
+                        <p class="tech-stack">Power BI · Python · Data validation</p>
+                        <a href="#" class="read-more">View case study &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="card gallery-card">
+                    <div class="card-image-placeholder">
+                        <span class="tag">ORIGINAL SCREENSHOT / AWAITING UPLOAD</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Surveillance Operations & SLA Analytics</h3>
+                        <p>Operational reporting for camera uptime, SLA compliance, and regional performance.</p>
+                        <p class="tech-stack">SQL · Excel · Power BI · Python</p>
+                        <a href="#" class="read-more">View case study &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section-padding">
+        <div class="container fade-in">
+            <div class="resume-box card">
+                <h3 class="section-label">06 / RESUME</h3>
+                <h2 class="section-title">Experience at a glance.</h2>
+                <div class="resume-details mt-4">
+                    <h3>Jotheeswaran TR</h3>
+                    <p class="text-muted">Data Analyst · Chennai, Tamil Nadu</p>
+                    <ul class="resume-list">
+                        <li>BI-focused analytics, star-schema Power BI modeling, SQL analysis and Python ETL automation.</li>
+                        <li>BCA — University of Madras (DG), Chennai - 2024</li>
+                        <li>Data Analyst Certification — OneRoadmap - 2025</li>
+                        <li>SQL — HackerRank - 2025</li>
+                        <li>Microsoft PL-300 — In progress</li>
+                        <a href="assets/resume.pdf" target="_blank" class="btn-link mt-3">Download Resume (PDF) &rarr;</a>
+                    </ul>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="section-padding">
+        <div class="container fade-in">
+            <h3 class="section-label">07 / CONTACT</h3>
+            <h2 class="section-title">Let's talk about your next data challenge.</h2>
+            
+            <div class="contact-info mt-4">
+                <p><a href="mailto:jotheeswaran26@gmail.com">jotheeswaran26@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/jotheeswaran-tr/" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/JotheeswaranTR" target="_blank">GitHub</a></p>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Jotheeswaran TR · Chennai, India · Built with clarity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

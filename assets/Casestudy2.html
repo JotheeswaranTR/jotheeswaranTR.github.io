@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Paper Leak Incidents Analysis</title>
+    <style>
+        /* CSS specifically designed for Print/PDF */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+        }
+        h1 {
+            font-size: 28px;
+            color: #111;
+            border-bottom: 2px solid #111;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #111;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        ul {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #f4f4f4;
+            border-left: 4px solid #111;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            font-weight: bold;
+        }
+        /* Image grid for PDF */
+        .image-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        /* Prevent images from breaking across pages */
+        img {
+            page-break-inside: avoid;
+        }
+        h2, h3 {
+            page-break-after: avoid;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Paper Leak Incidents Analysis — India (2004–2026)</h1>
+    <div class="subtitle">Data Quality Tracing & Power BI Analysis</div>
+
+    <h2>1. The Problem</h2>
+    <p>Exam paper leaks in India have become a significant national issue, affecting millions of students and undermining the integrity of educational institutions. However, data regarding these incidents is often scattered across news reports, government press releases, and regional databases. The goal of this project was to trace, validate, and centralize this data to identify trends and geographical hotspots over a 22-year period.</p>
+
+    <h2>2. The Solution</h2>
+    <p>I built a centralized Power BI dashboard that visualizes reported paper leak incidents across various Indian states. Because much of the source data was unstructured, I utilized Python for initial data validation, cleaning, and text extraction before loading it into Power BI for modeling and visualization.</p>
+
+    <div class="highlight-box">
+        <p>Project Scope: Analyzed 110+ reported incidents across 25 Indian states, spanning from 2004 to 2026.</p>
+    </div>
+
+    <h2>3. Methodology & Tech Stack</h2>
+    <ul>
+        <li><strong>Data Extraction:</strong> Gathered incident reports from public news databases and official government releases.</li>
+        <li><strong>Data Validation:</strong> Used Python (Pandas) to clean duplicates, standardize state names, and handle missing dates/values.</li>
+        <li><strong>Visualization:</strong> Created a star-schema model in Power BI to build interactive dashboards for year-wise trends and state distribution.</li>
+    </ul>
+
+    <h2>4. Key Insights & Results</h2>
+    <p>The analysis revealed that while incidents have occurred across the country, there are distinct regional clusters where paper leaks are more frequent. The dashboard allows users to filter by year and state to understand the severity of the issue.</p>
+
+    <!-- Replace the src with your actual image names in the assets folder -->
+    <div class="image-grid">
+        <img src="assets/project3-a.png" alt="Dashboard View 1">
+        <img src="assets/project3-b.png" alt="Dashboard View 2">
+    </div>
+
+    <h2>5. Business Value</h2>
+    <p>This project demonstrates the ability to take unstructured, messy public data, validate it, and build a clean, professional data model. It provides stakeholders with a historical view of a critical national issue, aiding in the development of preventative policies.</p>
+
+</body>
+</html>
